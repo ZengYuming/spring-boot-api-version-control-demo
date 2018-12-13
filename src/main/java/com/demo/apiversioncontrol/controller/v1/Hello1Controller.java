@@ -13,5 +13,11 @@ public class Hello1Controller {
         System.out.println("版本是1的接口");
         return "hello,world .version is 1";
     }
+
+    @RequestMapping("/martin")
+    public String helloMartin() {
+        System.out.println("版本是1的接口");
+        return "hello,martin .version is 1";
+    }
 }
 

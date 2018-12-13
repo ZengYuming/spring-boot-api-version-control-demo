@@ -9,8 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @RequestMapping("/world")
     public String helloWorld(){
-        System.out.println("版本是1的接口");
+        System.out.println("无版本的接口");
         return "hello,world .version is none";
     }
 }
-
